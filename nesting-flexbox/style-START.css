@@ -39,5 +39,42 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0; 
+  display: flex;
+  /* align-items: center; */
+  align-items: stretch;
+
 }
 
+.slider-nav li{
+  flex:2;
+  /* border:1px solid red; */
+  text-align: center;
+  /* flexbox inside another flexbox */
+  display: flex; 
+}
+
+
+.slider-nav .arrow{
+  flex:1;
+}
+
+/* 
+.slider-nav a{
+  display:block;
+  width:100%;
+} */
+
+.slider-nav a{
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-nav span{
+  display: block;
+  width: 100%;
+}
+
+.arrow a{
+  font-size: 40px;
+}
