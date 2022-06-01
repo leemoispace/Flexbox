@@ -78,7 +78,6 @@ section, footer {
 
 
 @media all and (max-width:1000px) {
-  
   .flex-nav ul {
     flex-wrap:wrap;
   }
