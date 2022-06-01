@@ -33,5 +33,24 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
+/* 
+  flex-grow: ;   distribute extra space proportionately
+
+  flex-shrink: 1; when space smaller than themself how to slim down
+
+  flex-basis: ; 
+*/
+
+.box1{
+  /* flex-basis: 400px;
+  flex-grow: 10;
+  flex-shrink: 5; */
+  flex: 10 5 400px
+}
 
 
+.box2{
+  flex-basis: 400px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
